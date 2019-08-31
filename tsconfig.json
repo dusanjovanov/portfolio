@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "allowJs": true, "checkJs": true, "jsx": "react" },
+  "exclude": ["dist, node_modules, .cache"]
+}
