@@ -1,14 +1,14 @@
 $primary: #05c755;
 
 @font-face {
-  font-family: Roboto;
-  src: url(./assets/Roboto-Regular.ttf);
+  font-family: "Source Sans Pro";
+  src: url(../public/fonts/SourceSansPro-Regular.ttf);
 }
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Source Sans Pro";
 }
 
 body {
