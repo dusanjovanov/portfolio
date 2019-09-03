@@ -38,13 +38,13 @@ const ContactPage = () => {
       </p>
       <p className="block">Or you can send me a message with the form below.</p>
       <p className="block">Form is not currently working (work in progress).</p>
-      <form action="" className="contact-form">
+      <form action="" className="contact-form" netlify>
         <label htmlFor="">Name:</label>
-        <input type="text" />
+        <input type="text" name="name" />
         <label htmlFor="">Email:</label>
-        <input type="email" />
+        <input type="email" name="email" />
         <label htmlFor="">Message:</label>
-        <textarea></textarea>
+        <textarea name="message"></textarea>
         <input type="submit" value="Send" />
       </form>
     </div>
