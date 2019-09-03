@@ -5,21 +5,29 @@ const HomePage = () => {
   return (
     <div className="page home-page">
       <h1 className="heading">Hi, I'm Dušan Jovanov</h1>
-      <p className="text">
+      <p className="block">
         I'm a web developer from Serbia. I primarily do frontend development and
         some backend in Node.js.
       </p>
-      <p className="text">
+      <p className="block">
         {" "}
         My favorite technologies are React and Typescript. I'm interested in
         learning Vue.js.
       </p>
-      <p className="text">
+      <p className="block">
         You can find me on{" "}
-        <a className="link" href="https://www.linkedin.com/in/dusanjovanov">
+        <a
+          className="link"
+          href="https://www.linkedin.com/in/dusanjovanov"
+          target="blank"
+        >
           LinkedIn
-        </a>{" "}
-        or go to the{" "}
+        </a>
+        , check out some of my{" "}
+        <Link to="/projects" className="link">
+          Projects
+        </Link>
+        , or go to the{" "}
         <Link to="/contact" className="link">
           Contact
         </Link>{" "}

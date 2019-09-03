@@ -1,15 +1,14 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import ContactPage from "./ContactPage";
-import CustomBrowserRouter from "./CustomBrowserRouter";
 import HomePage from "./HomePage";
 import Menu from "./Menu";
-import WorkPage from "./WorkPage";
+import ProjectsPage from "./ProjectsPage";
 
 const App = () => {
   return (
-    <CustomBrowserRouter>
+    <HashRouter>
       <div>
         <Menu />
         <Route path="/" exact>
@@ -36,7 +35,7 @@ const App = () => {
             </CSSTransition>
           )}
         </Route>
-        <Route path="/work">
+        <Route path="/projects">
           {({ match }) => (
             <CSSTransition
               in={match != null}
@@ -44,12 +43,12 @@ const App = () => {
               classNames="page"
               unmountOnExit
             >
-              <WorkPage />
+              <ProjectsPage />
             </CSSTransition>
           )}
         </Route>
       </div>
-    </CustomBrowserRouter>
+    </HashRouter>
   );
 };
 

@@ -10,7 +10,7 @@ const Menu = () => {
         </NavLink>
       </li>
       <li className="menu-item">
-        <NavLink to="/work">Projects</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
       </li>
       <li className="menu-item">
         <NavLink to="/contact">Contact</NavLink>
