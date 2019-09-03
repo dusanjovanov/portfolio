@@ -33,10 +33,7 @@ const ProjectsPage = () => {
       <div className="projects-list">
         <div className="project">
           <h2 className="title">
-            <a
-              href="https://dusanjovanov.github.io/projects/github-search"
-              target="blank"
-            >
+            <a href="https://elegant-ride-1799c1.netlify.com" target="blank">
               Github Search
             </a>
           </h2>

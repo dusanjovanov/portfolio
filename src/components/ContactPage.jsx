@@ -1,5 +1,4 @@
 import React from "react";
-import { Facebook, GitHub, Instagram, Linkedin, Twitter } from "react-feather";
 
 const ContactPage = () => {
   return (
