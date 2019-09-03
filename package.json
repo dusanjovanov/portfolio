@@ -16,7 +16,6 @@
     "sass": "^1.22.10"
   },
   "scripts": {
-    "start": "parcel public/index.html",
-    "build": "parcel build src/index.jsx"
+    "build": "parcel build public/index.html -d build"
   }
 }
