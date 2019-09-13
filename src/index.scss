@@ -16,6 +16,7 @@ body {
   background-color: white;
   color: black;
   font-size: 1rem;
+  overflow: hidden;
 }
 
 hr {
@@ -99,6 +100,8 @@ hr {
 }
 
 .projects-page {
+  overflow-y: scroll;
+  height: 100%;
   .project {
     margin-bottom: 20px;
     .title {

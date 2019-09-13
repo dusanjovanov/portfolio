@@ -2,6 +2,7 @@ import React from "react";
 import ghSearchImg from "../../public/img/gh-search.png";
 import portfolioImg from "../../public/img/portfolio.png";
 import todoImg from "../../public/img/todo.png";
+import chatAppImg from "../../public/img/chat-app.png";
 
 const ProjectsPage = () => {
   return (
@@ -15,7 +16,7 @@ const ProjectsPage = () => {
         <a
           href="https://www.github.com/dusanjovanov"
           className="link"
-          target="blank"
+          target="_blank"
         >
           Github
         </a>{" "}
@@ -23,7 +24,7 @@ const ProjectsPage = () => {
         <a
           href="https://www.codepen.io/dusanjovanov92"
           className="link"
-          target="blank"
+          target="_blank"
         >
           Codepen
         </a>
@@ -33,12 +34,44 @@ const ProjectsPage = () => {
       <div className="projects-list">
         <div className="project">
           <h2 className="title">
-            <a href="https://elegant-ride-1799c1.netlify.com" target="blank">
+            <a href="https://blissful-bohr-fbd6f4.netlify.com/" target="_blank">
+              Chat app
+            </a>
+          </h2>
+          <div className="thumb">
+            <img src={chatAppImg} alt="chat app screenshoot" />
+          </div>
+          <p className="block">
+            A chat app featuring realtime communication, authentication,
+            database administration, and more.
+          </p>
+          <p className="block">
+            <strong>Tools used:</strong> React, Redux, Node, Socket.io, Express,
+            MongoDB, Typescript, Styled Components.
+          </p>
+          <a
+            className="view-source"
+            href="https://github.com/dusanjovanov/chat-app-client"
+            target="_blank"
+          >
+            View client source
+          </a><br/><br/>
+          <a
+            className="view-source"
+            href="https://github.com/dusanjovanov/chat-app-server"
+            target="_blank"
+          >
+            View server source
+          </a>
+        </div>
+        <div className="project">
+          <h2 className="title">
+            <a href="https://elegant-ride-1799c1.netlify.com" target="_blank">
               Github Search
             </a>
           </h2>
           <div className="thumb">
-            <img src={ghSearchImg} />
+            <img src={ghSearchImg} alt="github search app screenshoot" />
           </div>
           <p className="block">
             Github search app featuring use of query parameters, REST API, form
@@ -50,7 +83,7 @@ const ProjectsPage = () => {
           <a
             className="view-source"
             href="https://github.com/dusanjovanov/github-search"
-            target="blank"
+            target="_blank"
           >
             View source
           </a>
@@ -59,12 +92,12 @@ const ProjectsPage = () => {
       <div className="projects-list">
         <div className="project">
           <h2 className="title">
-            <a href="https://todo-jodu.herokuapp.com" target="blank">
+            <a href="https://todo-jodu.herokuapp.com" target="_blank">
               Todo app
             </a>
           </h2>
           <div className="thumb">
-            <img src={todoImg} />
+            <img src={todoImg} alt="todo app screenshoot" />
           </div>
           <p className="block">
             A Todo app featuring React server-side rendering, Redux with state
@@ -77,7 +110,7 @@ const ProjectsPage = () => {
           <a
             className="view-source"
             href="https://github.com/dusanjovanov/todo-app"
-            target="blank"
+            target="_blank"
           >
             View source
           </a>
@@ -86,7 +119,7 @@ const ProjectsPage = () => {
       <div className="project">
         <h2 className="title">Portfolio</h2>
         <div className="thumb">
-          <img src={portfolioImg} />
+          <img src={portfolioImg} alt="portfolio app screenshoot" />
         </div>
         <p className="block">
           This app features animated page transitions, routing, responsive
@@ -99,7 +132,7 @@ const ProjectsPage = () => {
         <a
           className="view-source"
           href="https://github.com/dusanjovanov/portfolio"
-          target="blank"
+          target="_blank"
         >
           View source
         </a>

@@ -19,7 +19,7 @@ const HomePage = () => {
         <a
           className="link"
           href="https://www.linkedin.com/in/dusanjovanov"
-          target="blank"
+          target="_blank"
         >
           LinkedIn
         </a>

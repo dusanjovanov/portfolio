@@ -13,7 +13,7 @@ const ContactPage = () => {
         <a
           href="https://www.linkedin.com/in/dusanjovanov"
           className="link"
-          target="blank"
+          target="_blank"
         >
           LinkedIn
         </a>
@@ -21,7 +21,7 @@ const ContactPage = () => {
         <a
           href="https://www.facebook.com/jovanov92"
           className="link"
-          target="blank"
+          target="_blank"
         >
           FB
         </a>
@@ -29,7 +29,7 @@ const ContactPage = () => {
         <a
           href="https://www.github.com/dusanjovanov"
           className="link"
-          target="blank"
+          target="_blank"
         >
           Github
         </a>
