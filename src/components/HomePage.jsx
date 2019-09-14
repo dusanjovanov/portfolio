@@ -4,15 +4,17 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div className="page home-page">
-      <h1 className="heading">Hi, I'm Dušan Jovanov</h1>
+      <h1 className="heading">Hi, I'm Dusan Jovanov</h1>
       <p className="block">
         I'm a web developer from Serbia. I primarily do frontend development and
-        some backend in Node.js.
+        some backend.
       </p>
       <p className="block">
-        {" "}
-        My favorite technologies are React and Typescript. I'm interested in
-        learning Vue.js.
+        My favorite stack is React, Redux, Typescript, Node, Express, and
+        MongoDB.
+      </p>
+      <p className="block">
+        I am currently learning PHP (Laravel), Vue, and Angular.
       </p>
       <p className="block">
         You can find me on{" "}
